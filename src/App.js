@@ -10,7 +10,8 @@ const App = ()=> {
   return (
     <div className="App">
       <Navbar expand="lg">
-      <Navbar.Brand href="#home">Консультации по IT</Navbar.Brand>
+      <img src="1.png"></img> 
+      <Navbar.Brand href="#home"></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -20,7 +21,7 @@ const App = ()=> {
             <NavDropdown.Item href="#action/3.1">Контакты</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Деятельность</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Достижения</NavDropdown.Item>
-            
+
           </NavDropdown>
         </Nav>
         <Form inline>
