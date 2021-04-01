@@ -15,6 +15,19 @@ const App = ()=> {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
+        </Nav>
+        <Form inline>
+          <FormControl type="text" placeholder="Поиск" className="mr-sm-2" />
+          <Button variant="outline-dack">Искать</Button>
+        </Form>
+      </Navbar.Collapse>
+    </Navbar>
+    <Navbar expand="lg">
+      
+      <Navbar.Brand href="#home"></Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
           <Nav.Link href="#home">Главная</Nav.Link>
           <Nav.Link href="#link">Языки программирования</Nav.Link>
           <NavDropdown title="О нас" id="basic-nav-dropdown">
@@ -24,10 +37,7 @@ const App = ()=> {
 
           </NavDropdown>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Поиск" className="mr-sm-2" />
-          <Button variant="outline-dack">Искать</Button>
-        </Form>
+        
       </Navbar.Collapse>
     </Navbar>
     </div>
